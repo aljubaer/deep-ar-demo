@@ -107,7 +107,7 @@
 
     <canvas class="deepar" id="deepar-canvas" oncontextmenu="event.preventDefault()"></canvas>
     <div id="loader-wrapper">
-    <span class="loader"></span></span>
+    <span class="loader"> </span>
     </div>
 
     <div class="effect-carousel">
@@ -151,7 +151,7 @@
 
           // or we can setup the video element externally and call deepAR.setVideoElement (see startExternalVideo function below)
 
-          deepAR.switchEffect(0, 'slot', './effects/background_segmentation', function() {
+          deepAR.switchEffect(0, 'slot', 'https://tmpfiles.org/download/160919/beauty', function() {
             // effect loaded
           });
         }
